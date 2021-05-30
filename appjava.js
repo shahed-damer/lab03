@@ -16,6 +16,7 @@ if(favkindflower === flo ){
 }else{
   alert('please next time answer either Carnations or Gardenias') }
 
+<<<<<<< HEAD
 */
  alert("please choose a name from among these names {shahed,damer}");
  
@@ -41,3 +42,5 @@ alert("if you like Strawberries, choose how many photos do you want for it ?");
 var  favaret =prompt ("enter number of photos!!");
 for(let i=0;i<favaret;i++)
 {document.write('<img src="https://static.dw.com/image/38549598_303.jpg"/>');}
+=======
+>>>>>>> e81e9072e55238c6d4b71efa886d8119b1aec698

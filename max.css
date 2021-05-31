@@ -11,3 +11,11 @@ p {
   font-family: fantasy ;
 
 }
+header{background-color :beige}
+header nav ul li {display : inline;
+padding: 10px;
+text-align: center;
+color: black;
+
+
+}

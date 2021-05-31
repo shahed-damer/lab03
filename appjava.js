@@ -18,29 +18,43 @@ if(favkindflower === flo ){
 
 <<<<<<< HEAD
 */
- alert("please choose a name from among these names {shahed,damer}");
+ 
+ 
+ function shaheddamer(){
+   alert("please choose a name from among these names {shahed,damer}");
  
  var userName = prompt ("please enter your name");
- 
- alert("please choose a age from among these ages {20,23}");
- 
- var userAge = prompt("please enter your Age");
- 
- while(userName =="shahed" && userName =="damer"){
+ while(userName !="shahed" && userName !="damer"){
    alert( "welcome"+userName+"in our web site");
    userName = prompt ("please enter your name");
   }
-
-  while(userAge==20 && userAge==23){
+ 
+  }
+  shaheddamer() 
+  function agevalidata(){
+    alert("please choose a age from among these ages {20,23}");
+ 
+ var userAge = prompt("please enter your Age");
+  while(userAge !=20 && userAge !=23){
    alert ("your in your sweet tweenten");
     userAge = prompt("please enter your Age");
    }
- 
+
+  }
+
+agevalidata()
+
+function photoset(){
 alert("if you like Strawberries, choose how many photos do you want for it ?");
  
 
 var  favaret =prompt ("enter number of photos!!");
 for(let i=0;i<favaret;i++)
 {document.write('<img src="https://static.dw.com/image/38549598_303.jpg"/>');}
+}
+photoset()
+
+ 
+
 
 
